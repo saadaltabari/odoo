@@ -36,7 +36,7 @@ class PosOrder(models.Model):
     order_ref = fields.Char(string="Order Reference",
                             help='Reference of the order')
     is_cooking = fields.Boolean(string="Is Cooking",
-                                help='To identify the order is  kitchen orders')
+                                help='To identify the order is  kitchen orders', default=True)
     hour = fields.Char(string="Order Time", readonly=True,
                        help='To set the time of each order')
     minutes = fields.Char(string='order time')
@@ -219,7 +219,7 @@ class PosOrderLine(models.Model):
     order_ref = fields.Char(related='order_id.order_ref',
                             string='Order Reference',
                             help='Order reference of order')
-    is_cooking = fields.Boolean(string="Cooking", default=False,
+    is_cooking = fields.Boolean(string="Cooking", default=True,
                                 help='To identify the order is  '
                                      'kitchen orders')
     customer_id = fields.Many2one('res.partner', string="Customer",
