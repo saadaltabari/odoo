@@ -54,7 +54,7 @@ export class OrderWidget extends Component {
             label = _t("Order");
             disabled = isNoLine;
         } else {
-            label = kioskPayment ? _t("Pay") : _t("Order");
+            label = kioskPayment ? _t("تأكيد الطلب") : _t("Order");
             disabled = !kioskPayment && !isMobilePayment;
         }
 

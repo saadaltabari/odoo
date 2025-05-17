@@ -6,3 +6,21 @@
 .multiprint-flex .product-quantity {
     margin-right: 50px;
 }
+
+
+$o-brand-primary: #24a4dc !default;
+$o-brand-secondary: #b4b6b9 !default;
+$btn-primary-bg: $o-brand-primary !default;
+// $btn-primary-color: #2331eb !default;
+$btn-primary-color: #00489d !default;
+
+// Custom kiosk style enhancements
+.btn-primary {
+    background-color: $btn-primary-color;
+    &.disabled {
+        border-color: #fff !important;
+    }
+//     border-radius: 10px !important;
+//     font-weight: 600 !important;
+//     text-transform: uppercase !important;
+}

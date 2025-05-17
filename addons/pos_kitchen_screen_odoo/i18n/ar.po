@@ -1,0 +1,425 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_kitchen_screen_odoo
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-17 20:57+0000\n"
+"PO-Revision-Date: 2025-05-17 20:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#, python-format
+msgid "Accept"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_kitchen_screen__pos_config_id
+msgid "Allowed POS"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_kitchen_screen__pos_categ_ids
+msgid "Allowed POS Category"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,help:pos_kitchen_screen_odoo.field_kitchen_screen__pos_categ_ids
+msgid "Allowed POS Categoryfor the corresponding Pos"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,help:pos_kitchen_screen_odoo.field_kitchen_screen__pos_config_id
+msgid "Allowed POS for kitchen"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: model:ir.model.fields.selection,name:pos_kitchen_screen_odoo.selection__pos_order__order_status__cancel
+#: model:ir.model.fields.selection,name:pos_kitchen_screen_odoo.selection__pos_order_line__order_status__cancel
+#, python-format
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: pos_kitchen_screen_odoo
+#: model_terms:ir.ui.view,arch_db:pos_kitchen_screen_odoo.kitchen_screen_view_form
+msgid "Click Here to See the kitchen Orders"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#, python-format
+msgid "Completed"
+msgstr "تم إنجازه"
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_pos_order_line__is_cooking
+#: model:ir.model.fields.selection,name:pos_kitchen_screen_odoo.selection__pos_order__order_status__waiting
+#: model:ir.model.fields.selection,name:pos_kitchen_screen_odoo.selection__pos_order_line__order_status__waiting
+#, python-format
+msgid "Cooking"
+msgstr "تحت التحضير"
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_kitchen_screen__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_kitchen_screen__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_kitchen_screen__shop_number
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_pos_order_line__customer_id
+msgid "Customer"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.actions.client,name:pos_kitchen_screen_odoo.kitchen_custom_dashboard_action
+msgid "Dashboard"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_kitchen_screen__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#, python-format
+msgid "Done"
+msgstr "تم"
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields.selection,name:pos_kitchen_screen_odoo.selection__pos_order__order_status__draft
+#: model:ir.model.fields.selection,name:pos_kitchen_screen_odoo.selection__pos_order_line__order_status__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#, python-format
+msgid ""
+"Floor\n"
+"                                                                                :"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#, python-format
+msgid "Floor :"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_pos_order__floor
+msgid "Floor time"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/js/order_payment.js:0
+#, python-format
+msgid "Food is not ready"
+msgstr "الطعام غير جاهز"
+
+#. module: pos_kitchen_screen_odoo
+#: model_terms:ir.ui.view,arch_db:pos_kitchen_screen_odoo.kitchen_screen_view_form
+msgid "Got To the Kitchen Screen"
+msgstr "اذهب إلى شاشة عرض المطبخ"
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_kitchen_screen__id
+msgid "ID"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,help:pos_kitchen_screen_odoo.field_kitchen_screen__shop_number
+msgid "Id of the POS"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,help:pos_kitchen_screen_odoo.field_pos_order_line__customer_id
+msgid "Id of the customer"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_pos_order__is_cooking
+msgid "Is Cooking"
+msgstr "تحت التحضير"
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.module.category,description:pos_kitchen_screen_odoo.module_category_pos_kitchen_screen_odoo
+msgid "Kitchen Access Groups"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:res.groups,name:pos_kitchen_screen_odoo.kitchen_cook
+msgid "Kitchen Cook"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model_terms:ir.ui.view,arch_db:pos_kitchen_screen_odoo.kitchen_screen_view_form
+msgid "Kitchen Screen"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.actions.act_window,name:pos_kitchen_screen_odoo.kitchen_screen_action
+msgid "Kitchen screen Main Action"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_kitchen_screen__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_kitchen_screen__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/js/order_payment.js:0
+#, python-format
+msgid "No"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/js/order_payment.js:0
+#, python-format
+msgid ""
+"No food items found for the specified category for this kitchen. Kindly "
+"remove the selected food and update the order by clicking the 'Order' "
+"button. Following that, proceed with the payment."
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#, python-format
+msgid "Note"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_pos_order__order_ref
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_pos_order_line__order_ref
+msgid "Order Reference"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_pos_order__order_status
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_pos_order_line__order_status
+msgid "Order Status"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_pos_order__hour
+msgid "Order Time"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/js/order_button.js:0
+#, python-format
+msgid "Order is Completed"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,help:pos_kitchen_screen_odoo.field_pos_order_line__order_ref
+msgid "Order reference of order"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/js/order_payment.js:0
+#, python-format
+msgid "Please Complete all the food first."
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model,name:pos_kitchen_screen_odoo.model_pos_order_line
+msgid "Point of Sale Order Lines"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model,name:pos_kitchen_screen_odoo.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "طلبات نقطة البيع"
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model,name:pos_kitchen_screen_odoo.model_pos_session
+msgid "Point of Sale Session"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model,name:pos_kitchen_screen_odoo.model_kitchen_screen
+#: model:ir.module.category,name:pos_kitchen_screen_odoo.module_category_pos_kitchen_screen_odoo
+msgid "Pos Kitchen Screen"
+msgstr "شاشة العرض الداخلي لنقطة البيع"
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.ui.menu,name:pos_kitchen_screen_odoo.pos_kitchen_screen_menu_action
+#: model:ir.ui.menu,name:pos_kitchen_screen_odoo.pos_kitchen_screen_menu_root
+msgid "Pos kitchen screen"
+msgstr "شاشة العرض الداخلي لنقطة البيع"
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: model:ir.model.fields.selection,name:pos_kitchen_screen_odoo.selection__pos_order__order_status__ready
+#: model:ir.model.fields.selection,name:pos_kitchen_screen_odoo.selection__pos_order_line__order_status__ready
+#, python-format
+msgid "Ready"
+msgstr "جاهز"
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,help:pos_kitchen_screen_odoo.field_pos_order__order_ref
+msgid "Reference of the order"
+msgstr "مرجع الطلب"
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_kitchen_screen__sequence
+msgid "Sequence"
+msgstr "تسلسل"
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,help:pos_kitchen_screen_odoo.field_kitchen_screen__sequence
+msgid "Sequence of items"
+msgstr "ترتيب المواد"
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/js/order_payment.js:0
+#, python-format
+msgid "Some Serial/Lot Numbers are missing"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#, python-format
+msgid ""
+"Table\n"
+"                                                                                :"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#, python-format
+msgid "Table :"
+msgstr "الطاولة :"
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,help:pos_kitchen_screen_odoo.field_pos_order_line__order_status
+msgid "The status of orderliness"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/js/order_button.js:0
+#, python-format
+msgid "There Order is Completed please create a new Order"
+msgstr "تم انجاز الطلب، الرجاء إضافة طلب جديد"
+
+#. module: pos_kitchen_screen_odoo
+#: model_terms:ir.ui.view,arch_db:pos_kitchen_screen_odoo.kitchen_screen_view_form
+msgid ""
+"This will be the Allowed POS category for\n"
+"                                    this pos Kitchen"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model_terms:ir.ui.view,arch_db:pos_kitchen_screen_odoo.kitchen_screen_view_form
+msgid ""
+"This will be the Allowed POS for this pos\n"
+"                                    Kitchen"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#: code:addons/pos_kitchen_screen_odoo/static/src/xml/kitchen_screen_templates.xml:0
+#, python-format
+msgid "Time"
+msgstr "الوقت"
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,help:pos_kitchen_screen_odoo.field_pos_order__is_cooking
+#: model:ir.model.fields,help:pos_kitchen_screen_odoo.field_pos_order_line__is_cooking
+msgid "To identify the order is  kitchen orders"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,help:pos_kitchen_screen_odoo.field_pos_order__order_status
+msgid "To know the status of order"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,help:pos_kitchen_screen_odoo.field_pos_order__hour
+msgid "To set the time of each order"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/js/order_payment.js:0
+#, python-format
+msgid "Yes"
+msgstr "نعم"
+
+#. module: pos_kitchen_screen_odoo
+#. odoo-javascript
+#: code:addons/pos_kitchen_screen_odoo/static/src/js/order_payment.js:0
+#, python-format
+msgid ""
+"You are trying to sell products with serial/lot numbers, but some of them are not set.\n"
+"Would you like to proceed anyway?"
+msgstr ""
+
+#. module: pos_kitchen_screen_odoo
+#: model:ir.model.fields,field_description:pos_kitchen_screen_odoo.field_pos_order__minutes
+msgid "order time"
+msgstr "وقت الطلب"
