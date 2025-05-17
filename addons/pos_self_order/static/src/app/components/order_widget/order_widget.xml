@@ -15,7 +15,7 @@
                     <span>Your Order</span>
                     <div class="d-flex align-items-center">
                         <span class="o-so-tabular-nums badge text-bg-secondary rounded" t-esc="lineNotSend.count"/>
-                        <span class="o-so-tabular-nums mx-2" t-esc="selfOrder.formatMonetary(lineNotSend.price)" />
+<!--                        <span class="o-so-tabular-nums mx-2" t-esc="selfOrder.formatMonetary(lineNotSend.price)" />-->
                     </div>
                 </div>
             </div>

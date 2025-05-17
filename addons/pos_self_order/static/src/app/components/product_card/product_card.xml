@@ -30,7 +30,7 @@
             <div class="product-infos d-flex flex-column justify-content-between text-start flex-grow-1 w-100 lh-1">
                 <span t-esc="props.product.name" class="fs-4 fw-bold mb-1 mb-sm-2"/>
                 <div class="d-flex justify-content-between align-items-end gap-3">
-                    <span t-esc="selfOrder.formatMonetary(selfOrder.getProductDisplayPrice(props.product))" class="o-so-tabular-nums fs-4 text-muted flex-grow-1" />
+<!--                    <span t-esc="selfOrder.formatMonetary(selfOrder.getProductDisplayPrice(props.product))" class="o-so-tabular-nums fs-4 text-muted flex-grow-1" />-->
                     <div class="text-center ms-2 fs-lighter">
                         <div t-if="!props.product.self_order_available" class="fs-lighter bg-secondary rounded">Out of stock</div>
                     </div>
