@@ -1603,7 +1603,7 @@ class BaseModel(metaclass=MetaModel):
 
     @api.model
     @api.returns('self')
-    def search(self, domain, offset=0, limit=None, order=None):
+    def search(self, domain, offset=0, limit=None, order=None, anything=None):
         """ search(domain[, offset=0][, limit=None][, order=None])
 
         Search for the records that satisfy the given ``domain``
