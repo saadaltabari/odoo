@@ -72,7 +72,7 @@ class PosOrder(models.Model):
                                      message)
         for vals in vals_list:
             pos_orders = self.search(
-                [("pos_reference", "=", vals["pos_reference"])])
+                [("pos_reference", "=", vals.get("pos_reference"))])
             if pos_orders:
                 return super().create(vals_list)
 
